@@ -4,6 +4,9 @@
     <head>
         <meta charset="utf-8">
         <title>Fotografías Mágicas</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
         <style>
         div{
            font-size:24px;
@@ -48,6 +51,7 @@
             border: 20px solid #000;
             display: inline-block;
           }
+    
           .titlo {
             font-size:5em
             height: 60px;
@@ -111,6 +115,11 @@
             font-family: Franklin Gothic Medium;
             font-size: 1.5em;
         }
+
+        #imagen-autor {
+            width: 50px;
+            height: auto;
+        }
         </style>
     </head>
   </body>
@@ -150,6 +159,8 @@
         <!-- Celda de cabecera de la columna 3 -->
         <th>Semana 4</th>
         <!-- Celda de cabecera de la columna 4 -->
+          <th>Semana 5</th>
+        <!-- Celda de cabecera de la columna 5 -->
         </tr>
         <!-- Primera fila -->
         <tr>
@@ -161,13 +172,22 @@
             <!-- Tercera celda de la primera fila -->
           <td>Orientación del Encuadre</td>
             <!-- Cuarta celda de la primera fila -->
+          <td>Apropiación en la Fotografía</td>
+            <!-- Quinta celda de la primera fila -->
         </tr>
         <!-- Segunda fila -->
         <tr>
-            <td>ángulos y planos</td>
+            <td>Ángulos y Planos</td>
             <!-- Primera celda de la Segunda fila -->
-            <td>bodegones</td>
+            <td>Bodegones</td>
             <!-- Segunda celda de la Segunda fila -->
+          <td>Natural, Artificial 
+            y de Ventana</td>
+          <!-- Tercera celda de la Segunda fila -->
+          <td>Diorama</td>
+            <!-- Cuarta celda de la Segunda fila -->
+          <td>Los Miserables</td>
+          <!-- Quinta celda de la Segunda fila -->
         </tr>
         </table>
         <section class="sección">
@@ -198,16 +218,37 @@
             <h2 class="Semana1">Iluminación (NAV)</h2>
             <p class="Letra"> En está semana vimos los tipos de iluminación que hay en la fotografía. Natural: La luz del sol o sombras del día; Artificial: Con luces led, lámparas o velas; Luz de Ventana: La luz que entra por la ventana. Así nos quedo el trabajo: <a href="https://artemagicocaptadoenfotografia.blogspot.com/2025/04/iluminacion-nav.html">" Iluminación (NAV)"</a></p>
           </nav>
+           <section class="sección">             <nav>
+   <h1 class="titulo">Semana 4</h1>
     </article>
-    </section class="sección">
+            <h2 class="Semana 1">Diorama</h2>
+            <p class="Letra"> En está semana vimos que son los Dioramas y cual es su diferencia a la maqueta. En este trabajo recreamos la escena más epica de todo Marvel: La pelea entre Capitán America y Iron-Man. Así nos quedo el trabajo: <a href="https://artemagicocaptadoenfotografia.blogspot.com/2025/05/orientacion-del-encuadre.html">"Orientación del Encuadre"</a></p>
+            </nav>
+            <section class="sección">             <nav>
+   <h1 class="titulo">Semana 5</h1>
+    </article>
+            <h2 class="Semana 1">Apropiación en la Fotografía</h2>
+            <p class="Letra"> En está semana vimos aprendimos como apropiar fotografías iconicas e historicas con nuestros propios materiales, pero a la vez, sin mostrar trampa o plagio descarado. En este trabajo nos apropiamos de una fotografía muy iconica de la pelicula "Los Miserables". Así nos quedo el trabajo: <a href="https://artemagicocaptadoenfotografia.blogspot.com/2025/05/apropiacion-en-la-fotografia.html">"Apropiación en la Fotografía"</a></p>
+            </nav>             
+    </article>
+    </section>
                 <h3 class="Semana1">Autor</h3>
 
                 <p id="Información-General">Este espacio artistico fue hecho por: Pablo Restrepo López, 
                     utilizando los temas que voy a ver en el aula de Artes; se van a ir ampliando las secciones
                     a medida de que avancen las semanas.</p>
         </aside>
-        <footer id="Informacióndemi">Pablo Restrepo López. Correo electrónico: pablorelo102@gmail.com. Contacto: 3246128529</footer>
-        <img src="https://ibb.co/zh4hmqP3">
+        <footer id="Informacióndemi"><h3>📌 Datos de contacto</h3>
+<div class="card text-bg-dark border-info mb-3">
+<div class="card-body">
+<img src="autor.jpg" alt="Imagen del autor" id="imagen-autor">
+<p><strong>Nombre:</strong> Pablo Restrepo</p>
+<p><strong>Correo:</strong> <a href="mailto:pablorelo102@gmail.com">pablorelo102@gmail.com</a></p>
+<p><strong>Teléfono:</strong> +57 324 6128529</p>
+<p><strong>Institución:</strong> Skolmi S.A.S</p>
+</div>
+</div>
+        </footer>
     </section>     
-    </body>
+   </body>
 </html>
